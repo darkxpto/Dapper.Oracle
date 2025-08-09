@@ -1,5 +1,10 @@
 # Releasenotes
 
+## 2.1.0
+- Updated to use .net 8.0.
+- Dependency switched to most recent version of Dapper: 2.1.66.
+- Dependencies updated also for test project.
+
 ## 2.0.4
 - Updated to use .net 7.0.
 - Dependency switched to most recent version of Dapper: 2.0.123.

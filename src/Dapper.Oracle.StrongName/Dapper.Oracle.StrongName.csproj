@@ -3,7 +3,7 @@
     <Import Project="..\common.targets" />
     <PropertyGroup>
         <IsTestProject>false</IsTestProject>
-        <TargetFrameworks>net7.0</TargetFrameworks>
+        <TargetFrameworks>net8.0</TargetFrameworks>
         <SignAssembly>true</SignAssembly>
         <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
     </PropertyGroup>
@@ -13,7 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Dapper.StrongName" Version="2.0.123" />
+        <PackageReference Include="Dapper.StrongName" Version="2.1.66" />
     </ItemGroup>
 
     <ItemGroup>
